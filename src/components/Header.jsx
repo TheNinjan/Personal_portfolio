@@ -17,7 +17,7 @@ const NavContent = () => (
       <a href="#home">Home</a>
       <a href="#work">Work</a>
       <a href="#services">Services</a>
-      <a href="#testimonials">Testimonials</a>
+      <a href="#testimonial">Testimonials</a>
       <a href="#experince">Experince</a>
       <a href="#contact">Contact</a>
     </div>

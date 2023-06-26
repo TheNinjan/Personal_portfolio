@@ -1,0 +1,19 @@
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getFirestore } from "firebase/firestore";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyAzrbGeNxJfFopKuGQbvcJlt0qiKafqDVI",
+  authDomain: "react-portfolio-the-ninjan.firebaseapp.com",
+  projectId: "react-portfolio-the-ninjan",
+  storageBucket: "react-portfolio-the-ninjan.appspot.com",
+  messagingSenderId: "927800365157",
+  appId: "1:927800365157:web:2a4d2e38e77fc23654f68c"
+};
+
+// Initialize Firebase
+export const app = initializeApp(firebaseConfig);
+export const db = getFirestore();
