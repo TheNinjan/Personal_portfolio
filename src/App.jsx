@@ -15,7 +15,7 @@ function App() {
       <Header />
       <Home />
       <Work />
-      <TimeLine />
+      {/* <TimeLine /> */}
       <Services />
       <Testimonial />
       <Contact />
