@@ -2,6 +2,7 @@ import React from "react";
 import data from "../assets/data.json";
 
 const Timeline = () => {
+  // hi there i am here
   return (
     <div id="timeline">
       <div className="timelineBox">
