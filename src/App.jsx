@@ -1,7 +1,7 @@
 import Header from "./components/Header";
 import Home from "./components/Home";
 import Work from "./components/Work";
-import Time from "./components/TimeLine";
+import TimeLine from "./components/Timeline";
 import Services from "./components/Services";
 import Testimonial from "./components/Testimonial";
 import Contact from "./components/Contact";
@@ -14,7 +14,7 @@ function App() {
       <Header />
       <Home />
       <Work />
-      <Time />
+      <TimeLine />
       <Services />
       <Testimonial />
       <Contact />
