@@ -1,4 +1,3 @@
-import { useState } from "react";
 import Header from "./components/Header";
 import Home from "./components/Home";
 import Work from "./components/Work";
@@ -15,7 +14,7 @@ function App() {
       <Header />
       <Home />
       <Work />
-      {/* <TimeLine /> */}
+      <TimeLine />
       <Services />
       <Testimonial />
       <Contact />
